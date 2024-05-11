@@ -128,7 +128,9 @@
     text-decoration: none;
     color: #000;
   }
-    
+  .Home a:hover{
+    color: #ff0000;
+  }
   
     .project {
       width: 30%; /* Adjust the width as needed */
@@ -176,7 +178,16 @@
   .fas {
     font-size: 24px; /* Set the icon size */
     color: #333; /* Set the icon color */
+
   }
+  .fab:hover,
+  .fas:hover {
+    font-size: 24px; /* Set the icon size */
+    color: #ff0000; /* Set the icon color */
+
+  }
+  
+
   #projects-header{
     padding-left: 1rem;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif

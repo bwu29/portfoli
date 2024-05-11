@@ -33,7 +33,7 @@
     height: auto;
     border-radius: 10px;
     margin: 10px 0;
-    padding-bottom: 5px;
+    padding: 8px 8px 8px 8px;
   }
   
   ul {
@@ -178,6 +178,14 @@ th {
   height: auto;
 }
 
+.wireframe-container{
+  display: flex;
+  align-items: flex-start;
+  
+}
+
+
+
 .screenshots {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -211,6 +219,7 @@ th {
   .top{
     display: flex;
     justify-content: space-around;
+    
   }
 
   .side-by-side{
@@ -282,3 +291,7 @@ th {
   .dev-list{
     padding: 20px;
   }
+ .overview{
+  line-height: 3.5;
+  text-align: left;
+ }

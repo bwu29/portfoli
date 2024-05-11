@@ -1,7 +1,6 @@
 import React from 'react';
 import './Projects.css';
 import { Link } from 'react-router-dom';
-import { ReactComponent as HomeIcon } from '../home.svg'; 
 
 
 
@@ -36,17 +35,18 @@ function Aapi() {
        <section className="assignment-part">
          
          <header className='top'>
-         <img src= 'aapi.png'></img>
-         <header className="mb-8">
-         <p>
+        
+         <header className="overview">
+         
            <strong>Role:</strong> Developer
            <br />
            <strong>Stack:</strong> React.js
            <br />
            <strong>Timeframe:</strong> May 2024
-         </p>
-         </header>
          
+           
+         </header>
+         <img src= 'aapi.png'></img>
          
          </header>
          <p>

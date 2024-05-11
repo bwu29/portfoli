@@ -31,21 +31,32 @@ function FamiliesAndSchools() {
         </div>
 
         <section className="assignment-part">
-            <header className='top'>
-          <header className="mb-8">
-            
-            <p>Organization: Full Stack at Brown</p>
-            <p>Client: Dr. Rangel'S Research Team</p>
-            <p>Role: Lead Developer/Project Manager</p>
-            <p>Stack: React.js, Tailwind CSS</p>
-          </header>
-          <img className= 'FAShomepage'src='/familiesandschools.png'></img>
-          </header>
+          
+          <header className='top'>
+        
+        <header className="overview">
+          <strong>Organization:</strong> Full Stack at Brown
+          <br />
+          <strong>Client:</strong> Dr. Rangel's Research Group
+          <br />
+          <strong>Role:</strong> Lead Developer, Project Manager
+          <br />
+          
+
+          <strong>Stack:</strong> React.js, Tailwind CSS
+          <br />
+          <strong>Timeframe:</strong> October 2023- December 2023
+        
+          
+        </header>
+        <img src= '/familiesandschools.png'></img>
+        
+        </header>
 
           <section className="mb-8">
             <h2 className="text-2xl font-bold mb-4">Introduction</h2>
             <p>
-              As a part of Full Stack at Brown, an organization at Brown University creating websites for the local community, I was tasked with leading a team of developers and designers to create a website for Dr. Rangel's research team.
+              As a part of Full Stack at Brown, an organization at Brown University creating websites for the local community, I was tasked with leading a team of developers and designers to create a website for Dr. Rangel's research team. The goal of the website was to find participants for their survey, describe their research and introduce the team.
             </p>
           </section>
 
@@ -64,8 +75,8 @@ function FamiliesAndSchools() {
               <li>
                 <strong>LEAD</strong>
                 <ul className="list-disc ml-8">
-                  <li>design meetings with 3 designers, outlining design goals and communicating client feedback</li>
-                  <li>a team of 6 freshmen developers, administering the development process through Github Projects</li>
+                  <li>Design meetings with 3 designers, outlining design goals and communicating client feedback</li>
+                  <li>A team of 6 freshmen developers, administering the development process through Github Projects</li>
                 </ul>
               </li>
               <li>
@@ -80,9 +91,12 @@ function FamiliesAndSchools() {
           </section>
 
           <section className="mb-8">
-            <h2 className="text-2xl font-bold mb-4">Mockups in English and Spanish</h2>
-            <img src="RangelHome.png" alt="English Mockup" />
-            <img src="RangelSpanish.png" alt="Spanish Mockup" />
+            <h2 className="text-2xl font-bold mb-4">Wireframing</h2>
+            <div className='wireframe-container'>
+            <img src="wireframe1.png" alt="Mockup" />
+            <img src="wireframe2.png" alt="Mockup" />
+            <img src="wireframe3.png" alt="Mockup" />
+            </div>
           </section>
 
           <section className="mb-8">

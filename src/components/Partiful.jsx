@@ -35,8 +35,23 @@ function Partiful(){
             <section className="assignment-part">
                 
                 
+            <header className='top'>
+        
+        <header className="overview">
+          <strong>Company:</strong> Partiful
+          <br />
+          
+          <strong>Role:</strong> Product Designer
+          <br />
+          
+
+          <strong>Timeframe:</strong> March 2024- April 2024
+        
+          
+        </header>
+        <img src="./partiful.gif" alt="Partiful GIF" />        
+        </header>
                 
-                <img src="./partiful.gif" alt="Partiful GIF" />
 
                 <p>
                 In this project, I worked alongside Kaitlyn Williams, Kenneth Liou, and William Park to redesign  <a href="https://www.partiful.com">Partiful's</a> mobile app homepage.
