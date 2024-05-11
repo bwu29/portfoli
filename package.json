@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://bwu29.github.io/portfolio",
+  "homepage": "https://bwu29.github.io/portfolio/",
   
   "private": true,
   "dependencies": {
