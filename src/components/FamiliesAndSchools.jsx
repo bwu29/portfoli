@@ -6,9 +6,25 @@ import { ReactComponent as HomeIcon } from '../home.svg';
 function FamiliesAndSchools() {
   return (
     <div className="App">
-      <Link to="/" className="back-to-home-button">
-                <HomeIcon className="home-icon" style={{ position: 'absolute', top: 0, left: 0 }}/>
-            </Link>
+     <header className="header">
+        <div className="logo-container">
+          <Link to ="/"><img src='/bwu.png' alt="Logo" className="logo" /></Link>
+        </div>
+        <nav className="navbar">
+  <ul className="nav-list">
+    <li className="nav-item">
+      <a href="/#about">About</a>
+    </li>
+    <li className="nav-item">
+      <a href="/#projects">Projects</a>
+    </li>
+    <li className="nav-item">
+      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    </li>
+  </ul>
+</nav>
+      </header>
+      <div className='project-page'>
       <div className="transbox-with-padding">
         <div className="text-flow">
           <h1>Families and Schools Research</h1>
@@ -19,7 +35,7 @@ function FamiliesAndSchools() {
           <header className="mb-8">
             
             <p>Organization: Full Stack at Brown</p>
-            <p>Client: Dr. Rangel</p>
+            <p>Client: Dr. Rangel'S Research Team</p>
             <p>Role: Lead Developer/Project Manager</p>
             <p>Stack: React.js, Tailwind CSS</p>
           </header>
@@ -49,7 +65,7 @@ function FamiliesAndSchools() {
                 <strong>LEAD</strong>
                 <ul className="list-disc ml-8">
                   <li>design meetings with 3 designers, outlining design goals and communicating client feedback</li>
-                  <li>a team of 6 newly onboarded developers, administering the development process through Github Projects</li>
+                  <li>a team of 6 freshmen developers, administering the development process through Github Projects</li>
                 </ul>
               </li>
               <li>
@@ -83,6 +99,7 @@ function FamiliesAndSchools() {
               <p>
                 <strong>Solution:</strong> Add an explicit contact us blurb on the team page.
               </p>
+              <img src='/contact.png'></img>
             </div>
             <div>
               <p><strong>Problem:</strong> There are actually two different Qualtrics links, one for parents and one for students/admin.</p>
@@ -96,23 +113,56 @@ function FamiliesAndSchools() {
           <section>
             <h2 className="dev text-2xl font-bold mb-4">Development</h2>
             <div className='sidebyside'>
-            <ul className="list-disc ml-8">
+            <div className='dev-list'>
+                <ul className="list-disc ml-8">
               <li>Assign tickets based on certain components/pages.</li>
               <li>Assist new developers with their tasks.</li>
               <li>Work on routing and code organization.</li>
             </ul>
+            </div>
+            <div>
             <img src="/github.png" id="github" alt="GitHub Screenshot" />
             </div>
+            </div>
           </section>
+          <section className="takeaways">
+  <h2 className="text-2xl font-bold mb-4">Takeaways</h2>
+  <ul className="takeaways-list">
+    <li>
+      <strong>Effective Communication:</strong> Clear communication with the client was pivotal for defining project goals and incorporating iterative feedback.
+    </li>
+    <li>
+      <strong>Leadership:</strong> Leading design meetings and managing a developer team required effective delegation and coordination.
+    </li>
+    <li>
+      <strong>Technical Implementation:</strong> Tasks included routing, CSS debugging, and code integration to finalize the website.
+    </li>
+    <li>
+      <strong>Multilingual Support:</strong> Adding a language toggle enhanced user experience, overcoming limitations of auto-translate.
+    </li>
+    <li>
+      <strong>Improved Contact Information:</strong> An explicit contact us blurb addressed deficiencies in footer information.
+    </li>
+    <li>
+      <strong>User Engagement:</strong> Redirecting users to a survey section improved understanding of survey options.
+    </li>
+    <li>
+      <strong>Development Process:</strong> Tasks involved ticket assignment, assisting new developers, and focusing on code organization.
+    </li>
+  </ul>
+</section>
           <section class="final-site">
       <h2>Final Coded Site</h2>
       <div class="img-container">
-        <a href="https://aapimedia.vercel.app">Link to the final coded site</a>
+        <a href="https://familiesandschools.vercel.app/">Link to the final coded site</a>
         <img src="/FAShomepage.png" alt="Final site screenshot"/>
       </div>
     </section>
+    
+
         </section>
       </div>
+    </div>
     </div>
   );
 }

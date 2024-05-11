@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin} from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope as faSolidEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { Link } from 'react-router-dom';
+import { useState, useEffect } from 'react';
 
 
 
@@ -11,13 +12,33 @@ import { Link } from 'react-router-dom';
 
 function Home() {
 
+  const [isProjectsVisible, setIsProjectsVisible] = useState(false);
 
-  
+  useEffect(() => {
+    const handleScroll = () => {
+      const projectsSection = document.getElementById('projects');
+      if (!projectsSection) return;
+
+      const topPosition = projectsSection.getBoundingClientRect().top;
+      const bottomPosition = projectsSection.getBoundingClientRect().bottom;
+
+      if (topPosition < window.innerHeight && bottomPosition > 0) {
+        setIsProjectsVisible(true);
+      } else {
+        setIsProjectsVisible(false);
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
     <div className="Home">
       <header className="header">
         <div className="logo-container">
-          <img src='/bwu.png' alt="Logo" className="logo" />
+        <Link to ="/"><img src='/bwu.png' alt="Logo" className="logo" /></Link>
         </div>
         <nav className="navbar">
           <ul className="nav-list">
@@ -56,13 +77,15 @@ function Home() {
           
        
         </section>
-        <section id="projects" className="section">
-          
+        <section id="projects" className={`projects ${isProjectsVisible ? 'fade-in' : ''}`}>
+        <h2 id = 'projects-header'>Projects</h2>
+          <div className='project-display'>
           <div className='project'>
           <Link to="/partiful"><img src= '/partiful.gif'></img></Link>
             <div className='proj-description'>
             <br></br>
             <b>Partiful Homepage Redesign</b>
+            <p>UIUX</p>
             <p>April 2024</p>
             <p>Work with Partiful founders to redesign the app's homepage</p>
             </div>
@@ -74,8 +97,9 @@ function Home() {
             <div className='proj-description'>
             <br></br>
             <b>AAPI Media Resource</b>
+            <p>React.js</p>
             <p>May 2024</p>
-            <p>Compile a list of positive representation of Asian Americans in media as a resource for AA Cultural Society in RI.</p>
+            <p>Compile a list of positive representation of Asian Americans in media as a resource for AA Cultural Society in RI</p>
             <Link to="/aapi">Go to Case Study</Link>
 
             </div>
@@ -85,10 +109,11 @@ function Home() {
             <div className='proj-description'>
             <br></br>
             <b>Families and Schools Project</b>
+            <p>React.js</p>
             <p>Winter 2023</p>
             <p>Develop outreach website for Brown University research team as a part of Full Stack at Brown</p>
             <Link to="/familiesandschools">Go to Case Study</Link>
-
+            </div>
             </div>
           </div>
         </section>

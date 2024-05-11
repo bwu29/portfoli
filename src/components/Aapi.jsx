@@ -8,16 +8,36 @@ import { ReactComponent as HomeIcon } from '../home.svg';
 function Aapi() {
  return (
    <div className="App">
-     <Link to="/" className="back-to-home-button">
-                <HomeIcon className="home-icon" style={{ position: 'absolute', top: 0, left: 0 }}/>
-            </Link>
+     <header className="header">
+        <div className="logo-container">
+          <Link to ="/"><img src='/bwu.png' alt="Logo" className="logo" /></Link>
+        </div>
+        <nav className="navbar">
+  <ul className="nav-list">
+    <li className="nav-item">
+      <a href="/#about">About</a>
+    </li>
+    <li className="nav-item">
+      <a href="/#projects">Projects</a>
+    </li>
+    <li className="nav-item">
+      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    </li>
+  </ul>
+</nav>
+      </header>
+      <div className='project-page'>
+
      <div className="transbox-with-padding">
        <div className="text-flow">
          <h1>AAPI Media Resource</h1>
        </div>
 
        <section className="assignment-part">
-         <h2>Introduction</h2>
+         
+         <header className='top'>
+         <img src= 'aapi.png'></img>
+         <header className="mb-8">
          <p>
            <strong>Role:</strong> Developer
            <br />
@@ -25,6 +45,10 @@ function Aapi() {
            <br />
            <strong>Timeframe:</strong> May 2024
          </p>
+         </header>
+         
+         
+         </header>
          <p>
            <strong>Inspiration:</strong> Positive representation in the media is incredibly important for the development of Asian American youth, allowing them to strengthen confidence and sense of identity. In Grace Lin's TED Talk "The Windows and Mirrors of Your Child's Bookshelf", she talks about books as windows and mirrors and how a child's bookshelf should be filled with both. Readers should be able to see themselves in stories as well as gain exposure to other perspectives.
          </p>
@@ -119,10 +143,13 @@ function Aapi() {
 
        <section className="assignment-part">
          <h2>Technical Features</h2>
+         <div id = 'features'>
+         <div id = 'features-list'>
          <ul>
            <li>
-             <strong>Data Management:</strong> Media data is imported from an external JSON file and stored using React's useState hook.
+             <strong>Data Management:</strong> Media data is imported from an external JSON file I created and stored using React's useState hook.
            </li>
+          
            <li>
              <strong>Filtering and Sorting:</strong> Users can filter media content by age group and medium, and sort it alphabetically. The app uses JavaScript's array methods to perform filtering and sorting dynamically.
            </li>
@@ -133,6 +160,12 @@ function Aapi() {
              <strong>State Management:</strong> React's state management and hooks (useState and useEffect) ensure efficient data handling and seamless updates based on user interactions.
            </li>
          </ul>
+         </div>
+         <div id= 'code-images'>
+         <img src ='dataset.png' className='code-snippet'></img>
+         <img src ='usestate.png' className='code-snippet'></img>
+         </div>
+         </div>
        </section>
 
        <section className="assignment-part">
@@ -144,7 +177,15 @@ function Aapi() {
            <li>Offer a modular and scalable design for future enhancements and expansions.</li>
          </ul>
        </section>
+       <section class="final-site">
+      <h2>Final Coded Site</h2>
+      <div class="img-container">
+        <a href="https://aapimedia.vercel.app">Link to the final coded site</a>
+        <img src="/aapifinal.png" alt="Final site screenshot"/>
+      </div>
+    </section>
      </div>
+   </div>
    </div>
  
  );

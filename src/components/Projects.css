@@ -1,13 +1,15 @@
-.App {
+
+  .project-page{
+    padding-top: 12vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align:center; 
+
   }
-  
   .transbox-with-padding {
-    width: 80%;
-    padding: 20px;
+    width: 60%;
+    padding: 50px;
     border-radius: 10px;
   }
   
@@ -200,8 +202,8 @@ th {
     fill: #151515; 
   }
   #pasta-wireframe{
-    height:26vh;
-    width: 30vw;
+    height:35vh;
+    width: 35vw;
   }
   .FAShomepage{
     height: 12rem;
@@ -217,4 +219,66 @@ th {
 
   h2{
     padding-top: 3rem;
+    text-align: left;
+  }
+
+  .nav-item > a {
+    color: #000; /* Default text color */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .nav-item > a:hover {
+    color: #ff0000; /* Color change on hover */
+  }
+
+  .logo-container {
+    flex: .2;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+  }
+  
+  .navbar {
+    flex: 1;
+    color:black;
+  }
+  
+  .nav-list {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    padding-right: 30px;
+  }
+
+  .code-snippet{
+    justify-self: right;
+  }
+
+  #code-images{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px 0px 25px;
+  }
+  
+  #features{
+    display: flex;
+    
+  }
+
+  #features-list{
+    padding-right: 5rem;
+  }
+
+  .sidebyside{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dev-list{
+    padding: 20px;
   }

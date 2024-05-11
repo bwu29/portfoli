@@ -9,6 +9,7 @@ import FamiliesAndSchools from './components/FamiliesAndSchools.jsx';
 function App() {
   return (
     <Router>
+  
       <Routes>
         <Route path="/" element={<Home />} /> 
         <Route path="/partiful" element={<Partiful />} />

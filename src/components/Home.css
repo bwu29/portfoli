@@ -32,10 +32,10 @@
       background-position: 0;
     }
     60% {
-      background-position: 600px;
+      background-position: 390px;
     }
     100% {
-      background-position: 600px;
+      background-position: 390px;
     }
   }
   
@@ -94,9 +94,22 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 200px;
+    padding: 250px;
   
   }
+  .projects {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  .project-display{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .projects.fade-in {
+    opacity: 1;
+  }
+  
   
   .about-me{
     text-align: left;
@@ -116,12 +129,7 @@
     color: #000;
   }
     
-    .section {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-    }
-    
+  
     .project {
       width: 30%; /* Adjust the width as needed */
       margin-bottom: 2rem; /* Adjust the spacing between cards */
@@ -155,11 +163,13 @@
   
   #social {
     display: flex;
-    align-items: center; /* Align icons vertically */
+    align-items: center;
+    padding-top: 10px;
+    
   }
   
   #social a {
-    margin-right: 20px; /* Add spacing between icons */
+    margin-right: 40px; 
   }
   
   .fab,
@@ -167,4 +177,7 @@
     font-size: 24px; /* Set the icon size */
     color: #333; /* Set the icon color */
   }
-  
+  #projects-header{
+    padding-left: 1rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }

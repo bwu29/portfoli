@@ -7,9 +7,25 @@ import { ReactComponent as HomeIcon } from '../home.svg';
 function Partiful(){
     return (
         <div className="App">
-            <Link to="/" className="back-to-home-button">
-                <HomeIcon className="home-icon" style={{ position: 'absolute', top: 0, left: 0 }}/>
-            </Link>
+            <header className="header">
+        <div className="logo-container">
+          <Link to ="/"><img src='/bwu.png' alt="Logo" className="logo" /></Link>
+        </div>
+        <nav className="navbar">
+  <ul className="nav-list">
+    <li className="nav-item">
+      <a href="/#about">About</a>
+    </li>
+    <li className="nav-item">
+      <a href="/#projects">Projects</a>
+    </li>
+    <li className="nav-item">
+      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    </li>
+  </ul>
+</nav>
+      </header>
+      <div className='project-page'>
            
             <div className="transbox-with-padding">
             <div className="text-flow">
@@ -300,6 +316,7 @@ function Partiful(){
                 We want to give <b>many thanks</b> to the Partiful team for giving us the opportunity to work with them and for providing us with valuable feedback throughout the design process.
                 </p>
             </section>
+            </div>
             </div>
         </div>
     );
