@@ -23,7 +23,7 @@ function FamiliesAndSchools() {
             <p>Role: Lead Developer/Project Manager</p>
             <p>Stack: React.js, Tailwind CSS</p>
           </header>
-          <img className= 'FAShomepage'src='/FAShomepage.png'></img>
+          <img className= 'FAShomepage'src='/familiesandschools.png'></img>
           </header>
 
           <section className="mb-8">
@@ -95,13 +95,22 @@ function FamiliesAndSchools() {
 
           <section>
             <h2 className="dev text-2xl font-bold mb-4">Development</h2>
+            <div className='sidebyside'>
             <ul className="list-disc ml-8">
               <li>Assign tickets based on certain components/pages.</li>
               <li>Assist new developers with their tasks.</li>
               <li>Work on routing and code organization.</li>
             </ul>
             <img src="/github.png" id="github" alt="GitHub Screenshot" />
+            </div>
           </section>
+          <section class="final-site">
+      <h2>Final Coded Site</h2>
+      <div class="img-container">
+        <a href="https://aapimedia.vercel.app">Link to the final coded site</a>
+        <img src="/FAShomepage.png" alt="Final site screenshot"/>
+      </div>
+    </section>
         </section>
       </div>
     </div>

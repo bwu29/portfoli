@@ -210,3 +210,11 @@ th {
     display: flex;
     justify-content: space-around;
   }
+
+  .side-by-side{
+    display: flex;
+  }
+
+  h2{
+    padding-top: 3rem;
+  }

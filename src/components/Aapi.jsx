@@ -136,11 +136,12 @@ function Aapi() {
        </section>
 
        <section className="assignment-part">
-         <h2>Benefits</h2>
+         <h2>Takeaways</h2>
+         <p>These design choices, such as implementing aggregators and sort and filter functions:</p>
          <ul>
-           <li>Enhances user experience by providing personalized content exploration.</li>
-           <li>Enables easy discovery and engagement with media items aligned with user preferences.</li>
-           <li>Offers a modular and scalable design for future enhancements and expansions.</li>
+           <li>Enhance user experience by providing personalized content exploration.</li>
+           <li>Enable easy discovery and engagement with media items aligned with user preferences.</li>
+           <li>Offer a modular and scalable design for future enhancements and expansions.</li>
          </ul>
        </section>
      </div>
