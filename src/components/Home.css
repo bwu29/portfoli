@@ -1,0 +1,170 @@
+
+.Home h1 {
+    color: hsl(0, 0%, 28%);
+    font-size: 50px!important;
+    font-weight: bold!important;
+    font-family: monospace;
+    letter-spacing: 7px!important;
+    text-transform: uppercase;
+  }
+  
+  .Home h1 {
+    
+    background: linear-gradient(to right, hsl(0, 0%, 30%) 0, hsl(0, 0%, 100%) 10%, hsl(0, 0%, 30%) 20%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 5.0s infinite linear;
+  }
+  .header {
+    z-index: 2;
+      position: fixed;
+      width: 100%;
+      color: black;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-bottom: 0.5px solid #707070;
+      text-align: center;
+  }
+  @keyframes shine {
+    0% {
+      background-position: 0;
+    }
+    60% {
+      background-position: 600px;
+    }
+    100% {
+      background-position: 600px;
+    }
+  }
+  
+  .logo-container {
+    flex: .2;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 70px;
+    padding: 10px;
+  }
+  
+  .navbar {
+    flex: 1;
+    color:black;
+  }
+  
+  .nav-list {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    padding-right: 30px;
+  }
+  .Home p a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  
+  
+  
+  .nav-item {
+    margin-right: 20px;
+    padding: 18px;
+  }
+  
+  .section {
+    padding: 50px 0;
+  }
+  
+  .section h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* .image-container{
+    
+  } */
+  .profile{
+    height: 20vw;
+    border-radius: 50%
+  }
+  
+  #about{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 200px;
+  
+  }
+  
+  .about-me{
+    text-align: left;
+    padding-left: 90px;
+  }
+  
+  .nav-item > a {
+    color: #000; /* Default text color */
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .nav-item > a:hover {
+    color: #ff0000; /* Color change on hover */
+  }
+  .Home a{
+    text-decoration: none;
+    color: #000;
+  }
+    
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    
+    .project {
+      width: 30%; /* Adjust the width as needed */
+      margin-bottom: 2rem; /* Adjust the spacing between cards */
+      
+      padding: 1rem; /* Optional: Add padding inside the cards */
+      box-sizing: border-box; /* Ensure padding is included in the width */
+    }
+    
+    .project img {
+      width: 100%;
+      height: 14rem;
+      display: block; /* Ensure the image doesn't create extra space */
+      margin-bottom: 1rem; /* Optional: Add spacing between image and text */
+    }
+    
+    .proj-description {
+      text-align: left;
+    }
+    
+    .proj-description b {
+      font-weight: bold;
+    }
+    
+    .proj-description p {
+      margin: 0.5rem 0; /* Adjust spacing between paragraphs */
+    }
+    
+  
+  
+  
+  
+  #social {
+    display: flex;
+    align-items: center; /* Align icons vertically */
+  }
+  
+  #social a {
+    margin-right: 20px; /* Add spacing between icons */
+  }
+  
+  .fab,
+  .fas {
+    font-size: 24px; /* Set the icon size */
+    color: #333; /* Set the icon color */
+  }
+  
