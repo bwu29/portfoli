@@ -42,7 +42,7 @@ function FamiliesAndSchools() {
             <br />
             
 
-            <strong>Stack:</strong> React.js, Tailwind CSS
+            <strong>Stack:</strong> React, Typescript, Tailwind CSS
             <br />
             <strong>Timeframe:</strong> October 2023- December 2023
           
@@ -133,11 +133,38 @@ function FamiliesAndSchools() {
                     <li>Assist new developers with their tasks.</li>
                     <li>Work on routing and code organization.</li>
                   </ul>
+                  
                 </div>
                 <div>
                   <img src="/github.png" id="github" alt="GitHub Screenshot" />
                 </div>
               </div>
+              <br></br>
+              <div>
+    <ul>
+        <li>
+            <strong>Component-Based Architecture:</strong> Utilized React components to ensure a modular code structure, enhancing reusability and maintainability.
+        </li>
+        <li>
+            <strong>Dynamic Content Rendering:</strong> Implemented dynamic rendering of team members and project details from data arrays, facilitating easy updates and scalability.
+        </li>
+        <li>
+            <strong>Conditional Styling:</strong> Applied conditional styling based on dynamic data, allowing for varied visual presentation tailored to different content.
+        </li>
+        <li>
+            <strong>Client-Side Routing:</strong> Utilized Next.js for efficient client-side routing, enabling seamless navigation between pages without full page reloads.
+        </li>
+        <li>
+            <strong>Form Integration:</strong> Integrated with form components to seamlessly interact with external survey forms, enhancing user engagement and data collection.
+        </li>
+        <li>
+            <strong>Responsive Design:</strong> Incorporated responsive design principles to ensure optimal viewing and usability across a variety of devices and screen sizes.
+        </li>
+        <li>
+            <strong>Accessibility Considerations:</strong> Adhered to accessibility standards by employing semantic HTML, descriptive alt attributes, and appropriate color contrast, ensuring inclusivity and compliance with accessibility guidelines.
+        </li>
+    </ul>
+</div>
             </section>
             <section className="takeaways">
               <h2 className="text-2xl font-bold mb-4">Takeaways</h2>

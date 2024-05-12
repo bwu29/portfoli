@@ -87,7 +87,7 @@ function Home() {
               <div className='proj-description'>
                 <br></br>
                 <b>AAPI Media Resource</b>
-                <p>React.js</p>
+                <p>React</p>
                 <p>May 2024</p>
                 <p>Compile a list of positive representation of Asian Americans in media as a resource for AA Cultural Society in RI</p>
                 <Link to="/aapi">Go to Case Study</Link>
@@ -98,7 +98,7 @@ function Home() {
               <div className='proj-description'>
                 <br></br>
                 <b>Families and Schools Project</b>
-                <p>React.js</p>
+                <p>React, Typescript</p>
                 <p>Winter 2023</p>
                 <p>Develop outreach website for Brown University research team as a part of Full Stack at Brown</p>
                 <Link to="/familiesandschools">Go to Case Study</Link>

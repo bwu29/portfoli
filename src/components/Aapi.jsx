@@ -58,6 +58,19 @@ function Aapi() {
              <strong>Goal:</strong> This resource is targeted towards Asian American families, particularly parents and teenagers looking for something to watch or read. My website was shared with the AA Cultural Society in RI and is accessible through their website. <a href="https://providenceeduc.weebly.com/" target="_blank" rel="noopener noreferrer" aria-label="AAPI Media Resource Website">https://providenceeduc.weebly.com/</a>
            </p>
          </section>
+         
+         <section className="assignment-part">
+  <h2>Process Overview</h2>
+  <p>My process for developing the AAPI Media Resource website can be outlined as follows:</p>
+  <ul>
+    <li>Gather data on AAPI media and compile into JSON, ensuring that data can be easily filtered by fields.</li>
+    <li>Finalize design choices for the catalog, researching and drawing inspiration from existing websites.</li>
+    <li>Program the website, implementing filtering, sorting, and searching functions.</li>
+    <li>Stylize the website, keeping accessibility in mind.</li>
+    <li>Deploy and share!</li>
+  </ul>
+</section>
+
          <section className="assignment-part">
            <h2>Competitive Analysis</h2>
            <p>The website will allow users to save their favorite books/movies to a to-read/to-watch list. In deciding how I wanted my aggregator to work, I drew inspiration from three existing websites: <a href="https://www.twitch.tv/" aria-label="Twitch">Twitch</a>, <a href="https://www.zillow.com/myzillow/favorites" aria-label="Zillow">Zillow</a>, and <a href="https://www.pinterest.com/" aria-label="Pinterest">Pinterest</a>.</p>
@@ -130,6 +143,7 @@ function Aapi() {
              <img id = 'pasta-wireframe' src="/pasta-wireframe.png" alt="Mockup screenshot"/>
            </div>
          </section>
+         
          <section className="assignment-part">
            <h2>Technical Features</h2>
            <div id = 'features'>
@@ -164,7 +178,7 @@ function Aapi() {
              <li>Offer a modular and scalable design for future enhancements and expansions.</li>
            </ul>
          </section>
-         <section class="final-site">
+         <section class="assignment-part">
            <h2>Final Coded Site</h2>
            <div class="img-container">
              <a href="https://aapimedia.vercel.app" aria-label="Final Coded Site">Link to the final coded site</a>
