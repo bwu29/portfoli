@@ -1,7 +1,6 @@
 import React from 'react';
 import './Projects.css';
 import { Link } from 'react-router-dom';
-import { ReactComponent as HomeIcon } from '../home.svg'; 
 
 
 function Partiful(){
@@ -145,6 +144,7 @@ function Partiful(){
                 
                 <iframe 
                 style={{ border: '1px solid rgba(0, 0, 0, 0.1)', width: '570px', height: '450px' }}
+                title='sketches'
                 src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F8eUi1PlqCTplG6sqii4u6n%2FLoFi2%3Ftype%3Ddesign%26node-id%3D20-191%26t%3DnjCxleqrwjlMKA3A-1%26scaling%3Dscale-down%26page-id%3D20%253A181%26mode%3Ddesign" 
                 allowfullscreen
                 > </iframe>
@@ -170,6 +170,7 @@ function Partiful(){
                 <div style={{ display: 'flex', justifyContent: 'center', padding: '10px'}}>
                     <iframe
                     style={{ border: '1px solid rgba(0, 0, 0, 0.1)', width: '570px', height: '450px' }}
+                    title='lo-fi'
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZ8QRNMO1ghxuZLzQT6Ah7s%2FPartiful%3Fpage-id%3D0%253A1%26type%3Ddesign%26node-id%3D41-1374%26viewport%3D345%252C928%252C0.05%26t%3D3NB3n3E9nnTqRzCL-1%26scaling%3Dcontain%26starting-point-node-id%3D41%253A1374%26show-proto-sidebar%3D1%26mode%3Ddesign"
                     allowFullScreen
                     />
@@ -212,6 +213,7 @@ function Partiful(){
                 </p>
                 <div style={{ display: 'flex', justifyContent: 'center', padding: '10px'}}>
                     <iframe
+                    title='mid-fi'
                     style={{ border: '1px solid rgba(0, 0, 0, 0.1)', width: '570px', height: '450px' }}
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F8eUi1PlqCTplG6sqii4u6n%2FLoFi2%3Ftype%3Ddesign%26node-id%3D5-1911%26t%3DDJct2ND4jxFcMb1a-1%26scaling%3Dscale-down%26page-id%3D0%253A1%26mode%3Ddesign"
                     allowFullScreen
@@ -235,6 +237,7 @@ function Partiful(){
                 would look like depending on the number of invites and upcoming events a user has. 
                 <div style={{ display: 'flex', justifyContent: 'center', padding: '10px'}}>
                     <iframe
+                    title='hi-fi'
                     style={{ border: '1px solid rgba(0, 0, 0, 0.1)', width: '570px', height: '450px' }}
                     src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZ8QRNMO1ghxuZLzQT6Ah7s%2FPartiful%3Fpage-id%3D23%253A50%26type%3Ddesign%26node-id%3D189-3966%26viewport%3D-2239%252C249%252C0.6%26t%3DHDiGS1K7rwi0hczr-1%26scaling%3Dscale-down%26starting-point-node-id%3D189%253A3966%26show-proto-sidebar%3D1%26mode%3Ddesign"
                     allowFullScreen
@@ -265,6 +268,7 @@ function Partiful(){
                 <div style={{ display: 'flex', justifyContent: 'center', padding: '10px'}}>
                 
                 <iframe 
+                title='style-guide'
                 style={{ border: '1px solid rgba(0, 0, 0, 0.1)', width: '570px', height: '450px' }}
                 src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FZ8QRNMO1ghxuZLzQT6Ah7s%2FPartiful%3Fpage-id%3D107%253A299%26type%3Ddesign%26node-id%3D398-5155%26viewport%3D-172%252C375%252C0.11%26t%3DRa2vhNlb502L7Slz-1%26scaling%3Dscale-down%26mode%3Ddesign" 
                 allowfullscreen
