@@ -55,7 +55,7 @@ function FamiliesAndSchools() {
             <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4">Introduction</h2>
               <p>
-                As a part of Full Stack at Brown, an organization at Brown University creating websites for the local community, I was tasked with leading a team of developers and designers to create a website for Dr. Rangel's research team. The goal of the website was to find participants for their survey, describe their research and introduce the team.
+                As a part of Full Stack at Brown, an organization at Brown University creating websites for the local community, I was tasked with leading a team of developers and designers to create a website for Dr. Rangel's research team. The Families and Schools Project is a research study focusing on the role of parent-child relationships in shaping educational success. The goal of the website was to find participants for their survey, describe their research and introduce the team.
               </p>
             </section>
 
@@ -147,12 +147,6 @@ function FamiliesAndSchools() {
         </li>
         <li>
             <strong>Dynamic Content Rendering:</strong> Implemented dynamic rendering of team members and project details from data arrays, facilitating easy updates and scalability.
-        </li>
-        <li>
-            <strong>Conditional Styling:</strong> Applied conditional styling based on dynamic data, allowing for varied visual presentation tailored to different content.
-        </li>
-        <li>
-            <strong>Client-Side Routing:</strong> Utilized Next.js for efficient client-side routing, enabling seamless navigation between pages without full page reloads.
         </li>
         <li>
             <strong>Form Integration:</strong> Integrated with form components to seamlessly interact with external survey forms, enhancing user engagement and data collection.
