@@ -7,7 +7,7 @@ function FamiliesAndSchools() {
     <div className="App">
      <header className="header">
         <div className="logo-container">
-          <Link to ="/"><img src='/bwu.png' alt="Logo" className="logo" /></Link>
+          <Link to ="/#about"><img src='/bwu.png' alt="Logo" className="logo" /></Link>
         </div>
         <nav className="navbar">
           <ul className="nav-list">
@@ -125,7 +125,7 @@ function FamiliesAndSchools() {
             </section>
 
             <section>
-              <h2 className="dev text-2xl font-bold mb-4">Development</h2>
+              <h2 className="mb-8">Development</h2>
               <div className='sidebyside'>
                 <div className='dev-list'>
                   <ul className="list-disc ml-8">
@@ -160,9 +160,9 @@ function FamiliesAndSchools() {
     </ul>
 </div>
             </section>
-            <section className="takeaways">
+            <section className="mb-8">
               <h2 className="text-2xl font-bold mb-4">Takeaways</h2>
-              <ul className="takeaways-list">
+              <ul>
                 <li>
                   <strong>Effective Communication:</strong> Clear communication with the client was pivotal for defining project goals and incorporating iterative feedback.
                 </li>

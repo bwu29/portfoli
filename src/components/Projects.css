@@ -210,7 +210,7 @@ th {
     fill: #151515; 
   }
   #pasta-wireframe{
-    height:35vh;
+    height:40vh;
     width: 35vw;
   }
   .FAShomepage{
@@ -232,7 +232,7 @@ th {
   }
 
   .nav-item > a {
-    color: #000; /* Default text color */
+    color: #000; 
     transition: color 0.3s ease; /* Smooth color transition */
   }
   

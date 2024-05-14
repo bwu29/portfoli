@@ -8,7 +8,7 @@ function Partiful(){
         <div className="App">
             <header className="header">
         <div className="logo-container">
-          <Link to ="/"><img src='/bwu.png' alt="Logo" className="logo" /></Link>
+          <Link to ="/#about"><img src='/bwu.png' alt="Logo" className="logo" /></Link>
         </div>
         <nav className="navbar">
   <ul className="nav-list">

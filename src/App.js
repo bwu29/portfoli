@@ -4,12 +4,13 @@ import Home from './components/Home.jsx';
 import Partiful from './components/Partiful.jsx';
 import Aapi from './components/Aapi.jsx';
 import FamiliesAndSchools from './components/FamiliesAndSchools.jsx';
-
+import Scroll from './Scroll.js';
 
 function App() {
   return (
+    
     <Router>
-  
+      <Scroll/>
       <Routes>
         <Route path="/" element={<Home />} /> 
         <Route path="/partiful" element={<Partiful />} />
