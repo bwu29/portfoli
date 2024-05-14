@@ -43,6 +43,16 @@
   
   }
   
+  ul {
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+  }
+  
+  li {
+    padding-left: 20px; /* Add left padding to each list item */
+    margin-bottom: 8px; /* Add bottom margin to separate list items */
+  }
+  
   p {
     text-align: justify;
   }
